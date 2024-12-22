@@ -6,7 +6,7 @@ public class AudioDataGet : MonoBehaviour
 {
     //Wave audio imput set up
     private WaveInEvent audioInput;
-    public int deviceNumber = 1;
+    private int deviceNumber;
     private BufferedWaveProvider waveProvider;
     //Buffer set up
     private const int SAMPLE_RATE = 44100;
@@ -19,11 +19,10 @@ public class AudioDataGet : MonoBehaviour
     private float startTime;
     private float elapsedTime;
 
-
-
     // Start is called before the first frame update
     void Awake()
-    {
+    {   
+        deviceNumber = GameOptions.Instance.DeviceNumber;
         startTime = Time.time;
         //Get audio from recording device
         audioInput = new WaveInEvent();

@@ -2946,9 +2946,6 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 199478079143893995, guid: f6f40fde94a7f8044a9580781b479274, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 771959932}
-    - targetCorrespondingSourceObject: {fileID: 199478079143893995, guid: f6f40fde94a7f8044a9580781b479274, type: 3}
-      insertIndex: -1
       addedObject: {fileID: 771959929}
     - targetCorrespondingSourceObject: {fileID: 199478079143893995, guid: f6f40fde94a7f8044a9580781b479274, type: 3}
       insertIndex: -1
@@ -2973,18 +2970,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spectrumSource: {fileID: 1312417140}
   C: 4
---- !u!114 &771959932
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 771959928}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c713613c71c379942a653e444424c128, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &771959934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4196,7 +4181,6 @@ GameObject:
   - component: {fileID: 1312417139}
   - component: {fileID: 1312417140}
   - component: {fileID: 1312417141}
-  - component: {fileID: 1312417142}
   m_Layer: 0
   m_Name: SpectrumSource
   m_TagString: Untagged
@@ -4329,18 +4313,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   deviceNumber: 0
   BUFFER_TIME: 4096
---- !u!114 &1312417142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1312417138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b22bccee1cf26d449835fab62a3db55, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1328324100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7662171380344737984, guid: 3f70c7562aa8599439375089ae8f15e2, type: 3}
